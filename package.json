@@ -1,0 +1,16 @@
+{
+  "name": "cart-remember",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
